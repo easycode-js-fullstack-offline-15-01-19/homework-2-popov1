@@ -209,7 +209,9 @@ value21 = value21 === 'hidden' ? 'visible' : 'hidden'; //  value21 === 'hidden';
 
 // Task 2.2
 let value22 = 1;
-value22 = value22 === 0 ? 1 : value22 < 0 ? 'less then zero' : value22 * 10;
+value22 = value22 === 0 ? 1 
+    : value22 < 0 ? 'less then zero' 
+        : value22 * 10;
 console.log(value22); // 10
 
 // Task 2.3
