@@ -134,11 +134,7 @@ let item = {
     // discount: '15%'
 };
 
-let discountValue = null;
-
-if (item.discount) {
-    discountValue = parseFloat(item.discount);
-}
+let discountValue = parseFloat(item.discount);
 
 if (discountValue) {
     let priceValue = parseFloat(item.price);
